@@ -1,0 +1,41 @@
+<style>
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+</style>
+
+<table>
+  <tr>
+    <th></th>
+    <th colspan="2">Name</th>
+    <th>ID</th>
+    <th>Instructor</th>
+  </tr>
+  <tr>
+    <td rowspan="2">61_J1</td>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <td>5504</td>
+    <td rowspan="2">MAR</td>
+  </tr>
+  <tr>
+    <td>FN</td>
+    <td>LN</td>
+    <td>5515</td>
+  </tr>
+  <tr>
+    <td rowspan="2">61_J2</td>
+    <td>FN</td>
+    <td>LN</td>
+    <td>5584</td>
+    <td rowspan="2">NSL</td>
+  </tr>
+  <tr>
+    <td>FN</td>
+    <td>LN</td>
+    <td>5212</td>
+  </tr>
+</table>

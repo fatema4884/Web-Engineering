@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        .navbar {
+            background: #000;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h2 {
+            font-weight: normal;
+        }
+
+        a {
+            color: white;
+        }
+
+        button {
+            margin-left: 10px;
+            background: yellow;
+            color: white;
+        }
+
+        .shopCard {
+            margin-top: 40px;
+            display: flex;
+            gap: 25px;
+        }
+
+        .card {
+            width: 350px;
+            border: 1px solid rgb(209, 204, 204);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            display: grid;
+            border-radius: 5px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+        }
+
+        .content {
+            margin-left: 5px;
+        }
+
+        img {
+            width: 100%;
+        }
+        .price{
+            color: green;
+            font-weight: 600;
+        }
+        footer{
+            position: sticky;
+            margin-top: 250px;
+            bottom: 0;
+           
+           
+        }
+        .footertext{
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h2>Shop With Me</h2>
+        <a href="#">Account</a>
+        <div>
+            <input type="text" placeholder="Type your item">
+            <button>Search</button>
+        </div>
+        <div>
+            <i class="fa-solid fa-cart-plus"></i>
+            <span><sub>0</sub></span>
+        </div>
+    </div>
+    <div class="shopCard">
+        <div class="card">
+            <img src="https://thumbs.dreamstime.com/b/bunch-bananas-6175887.jpg" alt="Banana">
+            <div class="content">
+                <h3><b>Product One</b></h3>
+                <p class="price">$24.99</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.wAjtY5RhzSA_ghR4R0ljZgHaHa&pid=Api&P=0&h=180" alt="strawberry">
+            <div class="content">
+                <h3><b>Product Two</b></h3>
+                <p class="price">$29.99</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.hVjhVt5EiigNSJr1QK93AAHaIJ&pid=Api&P=0&h=180" alt="apple">
+            <div class="content">
+                <h3><b>Product three</b></h3>
+                <p class="price">$19.99</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.x2-KOWACfX_AZCGLiWze5gHaHa&pid=Api&P=0&h=180" alt="watermellon">
+            <div class="content">
+                <h3><b>Product Four</b></h3>
+                <p class="price">$34.99</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        
+            <p class="footertext">Thank you for watching</p>
+        
+    </footer>
+</body>
+
+</html>
