@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Meal Planner</title>
+  <script src="design.java"></script>
+</head>
+<body>
+
+
+  <header>
+    <h1>My Meal Planner</h1>
+    <p id="greeting"></p>
+    <p id="date"></p>
+  </header>
+
+  
+  <section id="recipes">
+    <h2>Recipes</h2>
+
+    
+    <div>
+      <h3>Title</h3>
+      <img src="image1.jpg" alt="Recipe Image" width="150">
+      <p><a href="https://example.com" target="_blank">A sentence (see more)</a></p>
+    </div>
+
+    
+    <div>
+      <h3>Title</h3>
+      <img src="image2.jpg" alt="Recipe Image" width="150">
+    </div>
+
+    
+    <div>
+      <h3>Title</h3>
+      <img src="image3.jpg" alt="Recipe Image" width="150">
+    </div>
+  </section>
+
+  <section id="planner">
+    <h2>Weekly Planner Table</h2>
+    <form id="mealForm">
+      <label>Enter a meal name:</label><br>
+      <input type="text" id="mealName"><br><br>
+
+      <label>Type:</label>
+      <select id="mealType">
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Dinner">Dinner</option>
+      </select><br><br>
+
+      <button type="submit">Add Meal</button>
+    </form>
+  </section>
+
+  
+  <section id="links">
+    <h2>Useful Links</h2>
+    <p><a href="https://youtube.com" target="_blank">Video or blog</a></p>
+    <p>This is <a href="https://example.com">a sentence link</a>.</p>
+    <p><a href="https://example.com" target="_blank">Open in new tab</a></p>
+  </section>
+
+  <section id="tips">
+    <button onclick="showTip()">Cooking Tip of the Day</button>
+    <div id="tipBox"></div>
+  </section>
+
+</body>
+</html>
