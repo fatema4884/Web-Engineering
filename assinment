@@ -1,1 +1,31 @@
-assingment
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proma Café</title>
+  </head>
+  <body>
+    <h1>Proma Café</h1>
+    <table border="1">
+      <tr>
+        <th>Image</th>
+        <th>Item Name</th>
+        <th>Ingredients</th>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.HFt6aACmmt-oQTh6LMgxSQHaHa?cb=iwc2&rs=1&pid=ImgDetMain" alt="Iecd Coffee" width="150"></td>
+        <td>Iced Coffee</td>
+        <td>Brewed coffee,Ice,sugar,milk</td>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.5DNAYVahJO5B0L0IAhQAuwHaE7?cb=iwc2&rs=1&pid=ImgDetMain" alt="Americano" width="150"></td>
+        <td>Americano</td>
+        <td>Espresso,hot water</td>
+      </tr>
+      <tr>
+        <td><img src="https://images.pexels.com/photos/1170659/pexels-photo-1170659.jpeg?cs=srgb&dl=art-bread-brown-1170659.jpg&fm=jpg" alt="Cappuccino" width="150"></td>
+        <td>Cappuccino</td>
+        <td>Espresso,Steamed milk,milk foam </td>
+      </tr>
+    </table>
+  </body>
+</html>
